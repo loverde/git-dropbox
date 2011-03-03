@@ -1,3 +1,5 @@
+EDIT: This was forked from https://github.com/agnoster/git-dropbox to enable personal changes
+
 # git-dropbox
 
 A recent [stackoverflow answer] got me thinking: what's the easiest way to use Dropbox for your git repos?
@@ -12,7 +14,7 @@ And your repo gets mirrored to a bare repo in your Dropbox! Sound like a good ti
 
 To install (this may require sudo):
 
-    curl -o /usr/local/bin/git-dropbox https://github.com/agnoster/git-dropbox/raw/master/git-dropbox.sh
+    curl -o /usr/local/bin/git-dropbox https://github.com/loverde/git-dropbox/raw/master/git-dropbox.sh
     chmod +x /usr/local/bin/git-dropbox
 
 Now, in any git project, run the following:
